@@ -3,17 +3,17 @@
 
 # URL variables
 # site domain 
-url: https://www.lib.uidaho.edu
+url: https://www.ijc.uidaho.edu
 # location on the domain
 # e.g. /digital/hjccc
-baseurl: /demo/psychiana
+baseurl: /psychiana
 # CONTENTdm server url
 cdm-url: https://digital.lib.uidaho.edu
 # location of code
 source-code: https://github.com/CollectionBuilder
 
 # Site settings
-title: Collection Builder CDM Skin
+title: IJC CDM Skin
 # header and head metadata
 tagline: Digital Collection Magic with Static Web Technologies
 description: "CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s." 
@@ -40,7 +40,7 @@ page_gen:
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build
 # if present, used to add analytics during build
-google-analytics-id: 
+google-analytics-id: UA-76328753-1
 
 # add liquid profiler to id bottlenecks
 # profile: true
