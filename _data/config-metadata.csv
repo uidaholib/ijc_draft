@@ -6,7 +6,7 @@ date,Date Created,DCTERMS.created
 date-is-approximate,Approximated Date
 description,Description,DC.description
 item-information,Item Information,
-subject,Subjects,DC.subject,true
+subject (lcsh),Subjects,DC.subject,true
 location,Location
 latitude,Latitude
 longitude,Longitude
