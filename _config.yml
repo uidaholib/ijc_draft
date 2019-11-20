@@ -3,10 +3,10 @@
 
 # URL variables
 # site domain 
-url: https://www.lib.uidaho.edu
+url: https://www.ijc.uidaho.edu
 # location on the domain
 # e.g. /digital/hjccc
-baseurl: /demo/psychiana
+baseurl: /psychiana
 # CONTENTdm server url
 cdm-url: https://digital.lib.uidaho.edu
 # location of code
@@ -14,6 +14,7 @@ source-code: https://github.com/CollectionBuilder
 
 # Site settings
 title: Leonard Feather Jazz Collection 
+
 # header and head metadata
 tagline: Digital Collection Magic with Static Web Technologies
 description: Jazz journalist Leonard Geoffrey Feather was born in Hampstead, England on September 13, 1914. In the 1930s, he arranged, composed, and produced jazz sessions, and began to write about jazz for print media.  After moving to New York he worked with such greats as Louis Armstrong, Dizzy Gillespie, and Duke Ellington, establishing his reputation in various fields of jazz.  Writing for famous jazz journals and authoring several books, he was particularly influential in promoting Bebop.  Moving to Los Angeles in 1960, he became the chief jazz critic for the Los Angeles Times. Leonard Feather died on September 22, 1994.
@@ -42,7 +43,7 @@ page_gen:
 # Note: use environment variable on build command to include analytics
 # JEKYLL_ENV=production jekyll build
 # if present, used to add analytics during build
-google-analytics-id: 
+google-analytics-id: UA-76328753-1
 
 # add liquid profiler to id bottlenecks
 # profile: true

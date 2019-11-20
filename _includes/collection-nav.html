@@ -12,11 +12,22 @@
 
         <div class="collapse navbar-collapse" id="page-nav">
             <ul class="navbar-nav mr-auto">
-                {% for nav in site.data.config-nav %}
+                {% for nav in site.data.config-nav %}{% unless nav.dropdown-parent == "true" or nav.dropdown-subsection == "true" %}
                 <li class="nav-item {% if page.url == nav.stub %}active{% endif %}">
                     <a class="nav-link mt-1" href="{{ nav.stub | relative_url }}">{{ nav.display-text }}</a>
                 </li>
-                {% endfor %}
+                {% endunless %}{% endfor %}
+                <li class="nav-item dropdown">
+                    {% for nav in site.data.config-nav %}{% if nav.dropdown-parent == "true" %}
+                    <a class="nav-link dropdown-toggle mt-1" href="{{ nav.stub | relative_url }}" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        {{ nav.display-text }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        {% elsif nav.dropdown-subsection == "true" %}
+                        <a class="dropdown-item" href="{{ nav.stub | relative_url }}">{{ nav.display-text }}</a>
+                        {% endif %}{% endfor %}
+                    </div>
+                </li>
                 <li class="nav-item ">
                     <a class="nav-link mt-1" href="{{ site.cdm-url }}/cdm/search/collection/{{ site.cdm-collection-id }}/" target="_blank">Database</a>
                 </li>
