@@ -2,7 +2,7 @@
 # values set here help configure details of individual pages in the website
 
 # Home page
-featured-image-objectid: demo_psychiana548 # use number of photo from collection
+featured-image-objectid: ijc_brown0 # use number of photo from collection
 featured-image-link:  # leave blank unless no cdm number to generate item 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 home-banner-image-position: center # [options: top, center, bottom] Default: top
@@ -13,7 +13,7 @@ featured-subjects: #separate semi-colon(';') - if left blank, will be automatica
 featured-subjects-max: 6 # set number of top subjects to display if auto generating
 featured-locations: Moscow, ID #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
 featured-locations-max: 3
-archives-west-finding-aid: http://archiveswest.orbiscascade.org/ark:/80444/xv36065
+archives-west-finding-aid: http://archiveswest.orbiscascade.org/ark:/80444/xv04595
 
 # Browse page
 # see _data/browse-config.csv for field display options
@@ -34,7 +34,7 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 
 # Subject page
 subjects-page: true # true / false, turns off subject generation 
-subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud
+subjects-fields: subject # set of fields separated by ; to be featured in the cloud
 subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
