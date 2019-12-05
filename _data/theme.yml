@@ -2,8 +2,8 @@
 # values set here help configure details of individual pages in the website
 
 # Home page
-featured-image-objectid: demo_psychiana548 # use number of photo from collection
-featured-image-link:  # leave blank unless no cdm number to generate item 
+featured-image-objectid:  # use number of photo from collection
+featured-image-link: https://ca-times.brightspotcdn.com/dims4/default/12ae3b5/2147483647/strip/true/crop/1518x853+0+0/resize/840x472!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F13%2Fc5%2F014b113ff16d7e25ab17519d0039%2Fla-1488583737-ml4wqdwn0r-snap-photo # leave blank unless no cdm number to generate item 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 home-banner-image-position: center # [options: top, center, bottom] Default: top
 carousel-height: # in px, but don't include the "px"; default is 450.
