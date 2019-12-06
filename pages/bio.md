@@ -11,6 +11,8 @@ Leonard Geoffrey Feather (1914- 1994) was raised as part of an upper middle clas
 
 Feather soon realized that the jazz community in Europe was minuscule compared to what the United States had to offer. Yearning to be at the creative heart of jazz, he made his first trip to the U.S. in 1935, followed by several additional visits during which he immersed himself in the musical scene. He decided to move to America shortly after the outbreak of the Second World War, and thus began a long and distinguished career, profoundly impacting the world of jazz.
 
+{% include item-figure.html objectid="lfc564" %}
+
 Leonard made his new home in New York City. While visiting a friend in California in 1945, he was introduced to Jane Leslie Larrabee. Instantly taken by her he proposed the next day. They were married a few weeks later, remaining together for life. Leonard and Jane had one child, Billie Jane Lee Lorraine Feather, named in part after her godmother, Billie Holiday. The Feathers moved to Los Angeles in 1960, and Lorraine Feather went on to become a respected singer, composer, and lyrist.
 
 ## Career 
