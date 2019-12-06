@@ -6,17 +6,17 @@
 url: https://www.ijc.uidaho.edu
 # location on the domain
 # e.g. /digital/hjccc
-baseurl: /psychiana
+baseurl: /ijcs
 # CONTENTdm server url
 cdm-url: https://digital.lib.uidaho.edu
 # location of code
 source-code: https://github.com/CollectionBuilder
 
 # Site settings
-title: IJC CDM Skin
+title: Lionel Hampton Collection
 # header and head metadata
-tagline: Digital Collection Magic with Static Web Technologies
-description: "CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories. This demo features materials from the Frank B. Robinson Papers documenting Psychiana, a religion popular in the 1930s and 40s." 
+tagline: King of the Vibes
+description: "The materials in this collection span most of Lionel Hampton's musical career and include personal papers and business records, photographs, musical compositions, audiotape master recordings (in a variety of formats), and six musical instruments, including a vibraphone." 
 # Organization branding
 organization-name: "Digital Initiatives, University of Idaho Library"
 organization-link: https://www.lib.uidaho.edu/digital/
@@ -25,13 +25,13 @@ organization-logo-nav: https://www.lib.uidaho.edu/media/digital/bannerlogo_allwh
 
 # Collection settings
 # contentdm collection name 
-cdm-collection-id: psychiana
+cdm-collection-id: ijcs
 # name of metadata file, be sure to also change page_gen data setting!
-metadata: demo_psychiana 
+metadata: ijcs
 # page gen settings 
 # "data" value must be the name of the metadata file
 page_gen:
-  - data: 'demo_psychiana'
+  - data: 'ijcs'
     template: 'items'
     name: 'objectid'
     dir: 'items'
