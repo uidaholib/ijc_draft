@@ -1,7 +1,9 @@
 ---
-title: Recordings
+title: Videos
 layout: page
-permalink: /recordings.html
+permalink: /videos.html
 ---
 
-## Recordings
+## Videos
+
+{% include videos.html %}
