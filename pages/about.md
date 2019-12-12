@@ -11,8 +11,6 @@ featured-image: "objects/test001.jpg"
 
 {{ site.description }}
 
-Visit the full [Psychiana Digital Collection](https://www.lib.uidaho.edu/digital/psychiana/) (also built with a version of CollectionBuilder) or the [Frank B. Robinson Papers](http://archiveswest.orbiscascade.org/ark:/80444/xv97133/op=fstyle.aspx?t=k&q=psychiana) finding aid to learn more.
-
-This collection features images, document pdfs, audio, and YouTube video items to demonstrate the range of possibilities using the CollectionBuilder visualizations.
+Jazz journalist Leonard Geoffrey Feather was born in Hampstead, England on September 13, 1914. In the 1930s, he arranged, composed, and produced jazz sessions, and began to write about jazz for print media.  After moving to New York he worked with such greats as Louis Armstrong, Dizzy Gillespie, and Duke Ellington, establishing his reputation in various fields of jazz.  Writing for famous jazz journals and authoring several books, he was particularly influential in promoting Bebop.  Moving to Los Angeles in 1960, he became the chief jazz critic for the Los Angeles Times. Leonard Feather died on September 22, 1994.
 
 {% include credits.md %}
