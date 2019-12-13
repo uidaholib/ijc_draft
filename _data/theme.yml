@@ -35,7 +35,7 @@ map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 # Subject page
 subjects-page: false # true / false, turns off subject generation 
 subjects-fields: creator # set of fields separated by ; to be featured in the cloud
-subjects-min: 3 # min size for subject cloud, too many terms = slow load time!
+subjects-min: 10 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 # Locations page
