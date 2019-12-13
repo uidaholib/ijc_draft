@@ -2,13 +2,13 @@
 # values set here help configure details of individual pages in the website
 
 # Home page
-featured-image-objectid: demo_psychiana548 # use number of photo from collection
+featured-image-objectid: ijcs20646 # use number of photo from collection
 featured-image-link:  # leave blank unless no cdm number to generate item 
 home-title-y-padding: 12em # the margin from the top your title portion will appear.
 home-banner-image-position: center # [options: top, center, bottom] Default: top
 carousel-height: # in px, but don't include the "px"; default is 450.
 # carousel can feature specific item types: image,pdf,youtube,thumbs
-carousel-type: image
+carousel-type: image, pdf
 featured-subjects: #separate semi-colon(';') - if left blank, will be automatically generated to create top 5 subjects
 featured-subjects-max: 6 # set number of top subjects to display if auto generating
 featured-locations: Moscow, ID #separate by semi-colon(';') - if left blank, will be automatically generated to create top 5 locations
@@ -33,9 +33,9 @@ map-cluster: true # suggested for large collection or with many items in same lo
 map-cluster-radius: 25 # size of clusters, from ~ 10 to 80
 
 # Subject page
-subjects-page: true # true / false, turns off subject generation 
-subjects-fields: subject;creator # set of fields separated by ; to be featured in the cloud
-subjects-min: 1 # min size for subject cloud, too many terms = slow load time!
+subjects-page: false # true / false, turns off subject generation 
+subjects-fields: creator # set of fields separated by ; to be featured in the cloud
+subjects-min: 3 # min size for subject cloud, too many terms = slow load time!
 subjects-stopwords: # set of subjects separated by ; that will be removed from display, e.g. boxers;boxing
 
 # Locations page
