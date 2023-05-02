@@ -1,3 +1,10 @@
+# ijc_draft
+
+This was a project to move the IJC collections into CB-CDM template. decker was working on the metadata. 
+However, the IJC CDM collections contain random compound objects, inconsistencies, and very low res images. 
+This made the translation from current IJC to CB-CDM less straightforward than should be. 
+The project was not finished. 
+
 # CollectionBuilder-CONTENTdm
 
 CollectionBuilder-CONTENTdm is a template for creating digital collection exhibits on top of existing CONTENTdm repositories.
